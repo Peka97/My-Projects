@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>icon.ico</file>
+    <file>Theme Window.jpg</file>
+  </qresource>
+</RCC>

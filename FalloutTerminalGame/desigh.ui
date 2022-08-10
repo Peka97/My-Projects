@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fallout Terminal Game</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.ico</normaloff>icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">Qlabel {
+	color: white;
+	font-family: Undertale Battle Font;
+	font-size: 10pt;
+	font-color: white;
+	background-color: white;
+	
+}</string>
+   </property>
+   <widget class="QLabel" name="back">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/newPrefix/Theme Window.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_code">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>591</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Undertale Battle Font</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 0 bold 10pt &quot;Undertale Battle Font&quot;;
+color: #5FCF80;</string>
+    </property>
+    <property name="text">
+     <string>0x1110 &amp;$^#?#/#/ 0x1210 &amp;/#$$?*!/ 0x1310 ^^@&amp;??^@!
+0x1120 *&amp;*^&amp;^$/&amp; 0x1220 */@|*^!*# 0x1320 $/#@*/!&amp;$
+0x1130 $|/#??!&amp;@ 0x1230 &amp;/!|^@?@| 0x1330 @@/?|?|&amp;*
+0x1140 !*$*|&amp;|#^ 0x1240 ?@/^*!#&amp;@ 0x1340 $#|*@|/|^
+0x1150 ||?&amp;$$@/! 0x1250 |//*!^|&amp;&amp; 0x1350 @!*@//?|$
+0x1160 ?@^$/??*^ 0x1260 !||?$&amp;|#&amp; 0x1360 @!*/^@#^!
+0x1170 ##$*&amp;//#/ 0x1270 #!^&amp;||/$/ 0x1370 $@@*?|&amp;&amp;@
+0x1180 &amp;/^!$!/!^ 0x1280 |#*??!#^@ 0x1380 #?/?$*@!#
+0x1190 ??^*#^^## 0x1290 *|*//^|!? 0x1390 *$|*^/$#?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_attempts">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>541</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Undertale Battle Font</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 0 bold 10pt &quot;Undertale Battle Font&quot;;
+color: #5FCF80;</string>
+    </property>
+    <property name="text">
+     <string>4 ATTEMPT(S) LEFT: █ █ █ █</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_word">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>551</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Undertale Battle Font</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #5FCF80;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_enter">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>130</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 0 bold 10pt &quot;Undertale Battle Font&quot;;
+color: #5FCF80;
+background-color:rgba(255, 255, 255, 0)
+</string>
+    </property>
+    <property name="text">
+     <string>Enter</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
