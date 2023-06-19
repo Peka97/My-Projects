@@ -1,0 +1,42 @@
+[
+  {
+    "id": "6423376a984af552c76986f5",
+    "email": "lucille_cervantes@acumentor.limited",
+    "roles": ["owner"],
+    "apiKey": "1ea51d2b-4844-4583-adc0-5e266ead741f",
+    "profile": {
+      "dob": "1989-08-08",
+      "name": "Lucille Cervantes",
+      "about": "In mollit ut culpa pariatur exercitation eu labore. Cupidatat duis proident fugiat aliqua pariatur nisi fugiat.",
+      "address": "47 Opal Court, Harold, Iowa",
+      "company": "Acumentor",
+      "location": {
+        "lat": 76.251926,
+        "long": 62.613692
+      }
+    },
+    "username": "lucille89",
+    "createdAt": "2010-07-07T14:06:36.065+00:00",
+    "updatedAt": "2010-07-08T14:06:36.065+00:00"
+  },
+  {
+    "id": "6423376a582728a816d1c31f",
+    "email": "rodgers_galloway@animalia.tips",
+    "roles": ["admin", "guest"],
+    "apiKey": "958b47d2-2fc6-4f82-91f7-247b99b6eb1f",
+    "profile": {
+      "dob": "1994-06-28",
+      "name": "Rodgers Galloway",
+      "about": "Esse duis quis incididunt ut incididunt sint laborum labore Lorem ipsum proident tempor Lorem. Est culpa nulla aliqua Lorem ad dolor ipsum enim.",
+      "address": "82 Jerome Avenue, Washington, Nevada",
+      "company": "Animalia",
+      "location": {
+        "lat": 80.748957,
+        "long": 96.703735
+      }
+    },
+    "username": "rodgers94",
+    "createdAt": "2014-10-10T14:56:25.410+03:00",
+    "updatedAt": "2014-10-11T14:56:25.410+03:00"
+  }
+]

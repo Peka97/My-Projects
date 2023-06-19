@@ -41,7 +41,7 @@ class Converter(QMainWindow):
             if str(self.path_file_in).endswith('.qrc'):
                 os.system(f'pyside6-rcc {self.path_file_in} -o {fname + ".py"}')
                 error = QMessageBox()
-                error.setWindowTitle("Инфорация")
+                error.setWindowTitle("Информация")
                 error.setText("Успешно!")
                 error.setIcon(QMessageBox.Information)
                 error.setStandardButtons(QMessageBox.Ok)
@@ -49,7 +49,7 @@ class Converter(QMainWindow):
             elif str(self.path_file_in).endswith('.ui'):
                 os.system(f'pyside6-uic {self.path_file_in} -o {fname + ".py"}')
                 error = QMessageBox()
-                error.setWindowTitle("Инфорация")
+                error.setWindowTitle("Информация")
                 error.setText("Успешно!")
                 error.setIcon(QMessageBox.Information)
                 error.setStandardButtons(QMessageBox.Ok)
